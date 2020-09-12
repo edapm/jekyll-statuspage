@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ed Mason"]
   spec.email         = ["ed@forgenst.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
+  spec.summary       = "A Statuspage theme for Jekyll. Easily add your websites to a statuspage"
   spec.homepage      = "https://forgenst.github.io/jekyll-statuspage"
   spec.license       = "MIT"
 

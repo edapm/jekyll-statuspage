@@ -1,4 +1,9 @@
-title                    : "Jekyll Statuspage"
-description              : "Example Statuspage website"
-url                      : # the base hostname & protocol for your site e.g. "https://forgenst.github.io"
-baseurl                  : # the subpath of your site, e.g. "/statuspage"
+brand:
+    title: Jekyll Statuspage
+    logo: /assets/icon.jpg
+
+color-scheme: # blue, dark or red (light is default)
+
+list-sites:
+    - website: "https://forgenst.com"
+    - website: "https://eapm.forgenst.com"

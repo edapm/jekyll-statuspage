@@ -1,0 +1,13 @@
+{% if site.color-scheme == "dark" %}
+<nav class="navbar navbar-dark bg-dark">
+{% elsif site.color-scheme == "blue" %}
+<nav class="navbar navbar-dark bg-primary">
+{% elsif site.color-scheme == "red" %}
+<nav class="navbar navbar-dark bg-danger">
+{% else %}
+<nav class="navbar navbar-light bg-light">
+{% endif %}
+    <a class="navbar-brand" href="{{site.url}}">
+        <img src="{{site.brand.logo}}" width="30" height="30" alt="{{site.title}}" loading="lazy">
+    </a>
+</nav>
