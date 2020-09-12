@@ -1,0 +1,4 @@
+title                    : "Jekyll Statuspage"
+description              : "Example Statuspage website"
+url                      : # the base hostname & protocol for your site e.g. "https://forgenst.github.io"
+baseurl                  : # the subpath of your site, e.g. "/statuspage"
