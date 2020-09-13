@@ -1,4 +1,7 @@
 # Jekyll Statuspage
+
+![Gem](https://img.shields.io/gem/v/jekyll-statuspage?color=red&label=gem%20theme&logo=jekyll)
+
 This a Statuspage theme for Jekyll. Simply add your websites and links to your `_config.yml`, and you're done! Check out our sample one [here](/_config.yml)
 
 ## Installation
