@@ -1,15 +1,42 @@
+# theme                  : "jekyll-statuspage"
+# remote_theme           : "forgenst/jekyll-statuspage"
+
+url: "https://pages.forgenst.com" # url of your site
+baseurl: "/jekyll-statuspage" # only need if your site is hosted as a subdomain, e.g. on GH Pages
+
+plugins:
+  - jekyll-remote-theme
+
+#
+# Statuspage-specific Options
+#
+
 brand:
     title: Jekyll Statuspage
     logo: /assets/icon.jpg
+    logo-text: "Jekyll Statuspage"
 
 color-scheme: # blue, dark or red (light is default)
+fa-code: "c02bf44fa3" # code for font awesome
 
 site-list:
   links:
-    - label: "Main"
-      url: "https://forgenst.com"
-      text: "Main Website"
+    - label: "Main" # Name of your website
+      url: "https://forgenst.com" # Website URL
+      text: "Main Website" # Optional description
+      custom-args: "&color=white&down_color=lightgrey&down_message=offline&label=forgenst.com&logo=firebase&logoColor=orange&style=for-the-badge&up_color=blue&up_message=online" # Optional Shields.io Badge overrides (see https://shields.io for details, all parameters shown in this example)
     - label: "Portfolio"
       url: "https://eapm.forgenst.com"
+      text: "Portfolio, hosted on Firebase"
     - label: "Blog"
       url: "https://blog.forgenst.com"
+      text: "Blog, hosted on GitHub Pages"
+
+social:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github-alt"
+      url: "https://github.com/forgenst"
+    - label: "Email"
+      icon: "far fa-envelope"
+      url: "mailto:ed@forgenst.com"
