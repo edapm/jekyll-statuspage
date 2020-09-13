@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
     {% include head.html %}
 </head>
-<body>
-    <div class="container-fluid">
+<body class="d-flex flex-column h-100" data-gr-c-s-loaded="true">
+    <!-- Begin page content -->
+    <main role="main" class="flex-shrink-0">
         {% include nav.html %}
-        {% include badges.html %}
-    </div>
+        <div class="container-fluid">
+            {% include badges.html %}
+        </div>
+    </main>
 </body>
-<footer>
-    {% include footer.html %}
-</footer>
 </html>
