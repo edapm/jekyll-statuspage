@@ -4,6 +4,11 @@ brand:
 
 color-scheme: # blue, dark or red (light is default)
 
-list-sites:
-    - website: "https://forgenst.com"
-    - website: "https://eapm.forgenst.com"
+site-list:
+  links:
+    - label: "Main"
+      url: "https://forgenst.com"
+    - label: "Portfolio"
+      url: "https://eapm.forgenst.com"
+    - label: "Blog"
+      url: "https://blog.forgenst.com"

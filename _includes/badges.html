@@ -1,4 +1,8 @@
-{% for site in site.list-sites %}
-    <p><a href="{{site}}">{{site}}</a>
-    <img src="https://img.shields.io/website?url={{site}}"></p>
-{% endfor %}
+{% if site.site-list.links %}
+    {% for link in site.site-list.links %}
+        {% if link.label and link.url %}
+            <a href="{{ link.url }}"> {{ link.label }}</a>&nbsp;<img src="https://img.shields.io/website?url={{link.url}}">
+            <br>
+        {% endif %}
+    {% endfor %}
+{% endif %}
