@@ -2,7 +2,7 @@
 
 ![Gem](https://img.shields.io/gem/v/jekyll-statuspage?color=red&label=gem%20theme&logo=jekyll)
 
-This a Statuspage theme for Jekyll. Simply add your websites and links to your `_config.yml`, and you're done! Check out our sample one [here](/_config.yml)
+This a Statuspage theme for Jekyll. Simply add your websites and links to your `_config.yml`, and you're done! Check out our sample one [here](/sampleconfig.yml)
 
 ## Installation
 
@@ -24,7 +24,6 @@ And then execute:
 $ bundle
 ```
 
-Or install it yourself as:
-```
-$ gem install jekyll-statuspage
-```
+#### Or:
+
+Use our starter repo: [forgenst/statuspage-starter](https://github.com/forgenst/statuspage-starter)
