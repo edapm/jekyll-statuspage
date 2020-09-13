@@ -1,8 +1,22 @@
 {% if site.site-list.links %}
+    <div class="row row-cols-1 row-cols-md-1 push">
     {% for link in site.site-list.links %}
         {% if link.label and link.url %}
-            <a href="{{ link.url }}"> {{ link.label }}</a>&nbsp;<img src="https://img.shields.io/website?url={{link.url}}">
-            <br>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        {% if link.custom-args %}
+                            <h5 class="card-title"><a href="{{ link.url }} ">{{ link.label }}</a><img style="float: right;" src="https://img.shields.io/website?url={{ link.url }}" alt="..."></h5>
+                        {% else %}
+                            <h5 class="card-title"><a href="{{ link.url }} ">{{ link.label }}</a><img style="float: right;" src="https://img.shields.io/website?url={{ link.url }}" alt="..."></h5>
+                        {% endif %}
+                        {% if link.text %}
+                            <p class="card-text">{{link.text}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
         {% endif %}
     {% endfor %}
+    </div>
 {% endif %}

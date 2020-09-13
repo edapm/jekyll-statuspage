@@ -8,6 +8,7 @@ site-list:
   links:
     - label: "Main"
       url: "https://forgenst.com"
+      text: "Main Website"
     - label: "Portfolio"
       url: "https://eapm.forgenst.com"
     - label: "Blog"
