@@ -7,8 +7,10 @@
 {% else %}
 <nav class="navbar navbar-light bg-light">
 {% endif %}
-    <a class="navbar-brand" href="{{site.url}}">
-        <img src="{{site.brand.logo}}" width="30" height="30" alt="{{site.title}}" loading="lazy">
+    <a class="navbar-brand" href="{{site.baseurl | relative_url }}">
+        {% if site.brand.logo %}
+            <img src="{{ site.baseurl | site.brand.logo | relative_url }}" width="30" height="30" alt="{{site.title}}" loading="lazy">
+        {% endif %}
         {% if site.brand.logo-text %}
             <span>{{site.brand.logo-text}}</span>
         {% endif %}
@@ -18,9 +20,9 @@
         {% for link in site.social.links %}
             {% if link.label and link.url %}
                 {% if site.color-scheme == "blue" or site.color-scheme == "dark" or site.color-scheme == "red" %}
-                    <li><a href="{{link.url}}"><i style="color: whitesmoke" class="{{link.icon}}"></i></a></li>
+                    <li><a href="{{ link.url | relative_url }}"><i style="color: whitesmoke" class="{{ link.icon | relative_url }}"></i></a></li>
                 {% else %}
-                    <li><a href="{{link.url}}"><i style="color: #444;" class="{{link.icon}}"></i></a></li>
+                    <li><a href="{{ link.url | relative_url }}"><i style="color: #444;" class="{{ link.icon | relative_url }}"></i></a></li>
                 {% endif %}
             {% endif %}
         {% endfor %}

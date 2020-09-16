@@ -1,8 +1,8 @@
-# theme                  : "jekyll-statuspage"
+theme                  : "jekyll-statuspage"
 # remote_theme           : "forgenst/jekyll-statuspage"
 
+baseurl: "/jekyll" # only need if your site is hosted as a subdomain, e.g. on GH Pages
 url: "https://pages.forgenst.com" # url of your site
-baseurl: "/jekyll-statuspage" # only need if your site is hosted as a subdomain, e.g. on GH Pages
 
 plugins:
   - jekyll-remote-theme
@@ -13,7 +13,7 @@ plugins:
 
 brand:
     title: Jekyll Statuspage
-    logo: /assets/icon.jpg
+    logo:
     logo-text: "Jekyll Statuspage"
 
 color-scheme: # blue, dark or red (light is default)

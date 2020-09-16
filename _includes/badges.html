@@ -6,9 +6,9 @@
                 <div class="card h-100">
                     <div class="card-body">
                         {% if link.custom-args %}
-                            <h5 class="card-title"><a href="{{ link.url }} ">{{ link.label }}</a><img style="float: right;" src="https://img.shields.io/website?{{ link.custom-args }}&url={{ link.url }}" alt="..."></h5>
+                            <h5 class="card-title"><a href="{{ link.url | relative_url }}">{{ link.label }}</a><img style="float: right;" src="https://img.shields.io/website?{{ link.custom-args }}&url={{ link.url }}" alt="..."></h5>
                         {% else %}
-                            <h5 class="card-title"><a href="{{ link.url }} ">{{ link.label }}</a><img style="float: right;" src="https://img.shields.io/website?url={{ link.url }}" alt="..."></h5>
+                            <h5 class="card-title"><a href="{{ link.url | relative_url }}">{{ link.label }}</a><img style="float: right;" src="https://img.shields.io/website?url={{ link.url }}" alt="..."></h5>
                         {% endif %}
                         {% if link.text %}
                             <p class="card-text">{{link.text}}</p>
