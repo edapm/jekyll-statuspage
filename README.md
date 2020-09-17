@@ -27,3 +27,4 @@ $ bundle
 #### Or:
 
 Use our starter repo: [forgenst/statuspage-starter](https://github.com/forgenst/statuspage-starter)
+**NB: I've had problems running this on Windows, to do with baseurl. See Issues for details**

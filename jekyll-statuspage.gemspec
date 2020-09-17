@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ed Mason"]
   spec.email         = ["ed@forgenst.com"]
 
-  spec.summary       = "A Statuspage theme for Jekyll. Easily add your websites to a statuspage **NOT CURRENTLY WORKING**"
+  spec.summary       = "A Statuspage theme for Jekyll. Easily add your websites to a statuspage"
   spec.homepage      = "https://github.com/forgenst/jekyll-statuspage"
   spec.license       = "MIT"
 
