@@ -1,6 +1,6 @@
 # Jekyll Statuspage
 
-![Gem](https://img.shields.io/gem/v/jekyll-statuspage?color=red&label=gem%20theme&logo=jekyll)
+![Gem](https://img.shields.io/gem/v/jekyll-statuspage?label=gem%20theme&logo=jekyll)
 
 This a Statuspage theme for Jekyll. Simply add your websites and links to your `_config.yml`, and you're done! Check out our sample one [here](/sampleconfig.yml)
 
@@ -27,4 +27,4 @@ $ bundle
 #### Or:
 
 Use our starter repo: [forgenst/statuspage-starter](https://github.com/forgenst/statuspage-starter)
-**NB: I've had problems running this on Windows, to do with baseurl. See Issues for details**
+**NB: I've had problems running this on Windows, to do with baseurl. See [Issues](https://github.com/forgenst/jekyll-statuspage/issues/3) for details**

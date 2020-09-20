@@ -12,9 +12,8 @@ plugins:
 #
 
 brand:
-    title: Jekyll Statuspage
     logo:
-    logo-text: "Jekyll Statuspage"
+    logo-text:
 
 color-scheme: # blue, dark or red (light is default)
 fa-code: # code for font awesome

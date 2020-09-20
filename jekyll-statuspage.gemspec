@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-statuspage"
-  spec.version       = "1.0.6"
+  spec.version       = "1.1.0"
   spec.authors       = ["Ed Mason"]
   spec.email         = ["ed@forgenst.com"]
 
   spec.summary       = "A Statuspage theme for Jekyll. Easily add your websites to a statuspage"
-  spec.homepage      = "https://github.com/forgenst/jekyll-statuspage"
+  spec.homepage      = "https://statuspage-starter.vercel.app"
   spec.license       = "MIT"
 
   spec.metadata = {
